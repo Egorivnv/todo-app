@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Form from "./components/AddTaskForm/form";
-import Filter from './components/FilterForm/filer'
+import App from "./components/TaskApp/app";
 
 ReactDOM.render (
     <div>
-    <Form />
-    <Filter />
+    <App />
     </div>,
      document.getElementById('root')
 );

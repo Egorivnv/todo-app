@@ -1,5 +1,5 @@
 #filterForm {
-    width: 35%;
+    width: 45%;
     margin: 0px auto;
 }
 
@@ -8,6 +8,14 @@
     margin: 15px 0px;
 }
 
-#felterDataOptions  {
-    margin-left: 0px;
+#filterDate  {
+    margin-top: 10px;
+}
+
+#filterDate  {
+    margin-top: 10px;
+}
+
+#filterDate label {
+    margin-right: 35px;
 }

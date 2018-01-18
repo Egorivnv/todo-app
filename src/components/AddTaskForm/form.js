@@ -1,16 +1,7 @@
 import React from 'react';
 import './form.css';
-import DateOptions from './dateOptions';
 
 class Form extends React.Component {
-
-    /*constructor() {
-        super();
-        this.state = {
-            taskData: new Date()
-        }
-    }*/
-
 
 
     render () {
@@ -26,9 +17,9 @@ class Form extends React.Component {
                         <option value="medium">Medium</option>
                         <option value="low">Low</option>
                     </select>
-                    <DateOptions date={new Date()} text="Date" />
+                    <input type='date' id='taskData' />
                     <textarea id="formTextArea" placeholder="Description"/>
-                    <div id="addTaskButton"><button >Add</button></div>
+                    <div id="addTaskButton"><button type='submit' value='Add'></button></div>
                 </fieldset>
             </form>
 

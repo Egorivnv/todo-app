@@ -1,0 +1,14 @@
+#tableId {
+    width:45%;
+    margin: 25px auto;
+    border: 1px solid black;
+    
+}
+
+#tableBody {
+    text-align: center;
+}
+
+.tr {
+    border-top-color: black;
+}
